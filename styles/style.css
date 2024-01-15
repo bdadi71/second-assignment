@@ -1,0 +1,110 @@
+/* universal styles */
+* {
+    font-family: 'Mulish', sans-serif;
+    margin: 10px;
+}
+
+/* nav styles */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-right {
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* banner styles */
+.banner-container {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Group\ 13\ \(1\)\ \(1\).png);
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto 70px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.banner-heading {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.banner-heading h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-paragraph p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.banner-search {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    background-repeat: no-repeat;
+}
+
+.banner-search select {
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 16px 84px 16px 16px;
+}
+
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 16px 0px;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+}
+
+/* popular tour styles */
+.popular-tours-container {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.popular-tours-text {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.popular-tours-text h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
