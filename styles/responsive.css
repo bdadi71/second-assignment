@@ -29,13 +29,44 @@
     .banner-heading h1 {
         font-size: 2rem;
     }
+
     .footer-heading {
         padding: 20px;
     }
+
     .footer-paragraph {
         padding: 10px;
     }
+
+    .places-section-1,
+    .places-section-2,
+    .places-section-3 {
+        flex-direction: column;
+    }
+
+    .destination-container img {
+        width: 335px;
+        height: 176px;
+    }
+
+    .discount {
+        width: 214.023px;
+        height: 79.268px;
+        top: 123px;
+        right: -8px;
+    }
+
+    .discount h3 {
+        font-size: 15.854px;
+    }
+
+    .discount h2 {
+        font-size: 21.138px;
+    }
 }
-@media screen and (min-width:600px) and (max-width:972px){
-    
+
+@media screen and (min-width:600px) and (max-width:972px) {
+
+    /* the code is done in style.css */
+
 }

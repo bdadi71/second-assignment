@@ -70,6 +70,7 @@ nav a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: 0 auto;
+    margin-bottom: 70px;
 }
 
 .banner-heading {
@@ -147,18 +148,32 @@ nav a {
     margin-bottom: 70px;
 }
 
-.place-1 {
-    background: linear-gradient(#070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../Images/Rectangle\ 5.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 10px;
-    width: 550px;
-    height: 240px;
-    color: #FFF;
+.places-section-1 {
+    display: flex;
+}
+
+.places-section-2 {
+    display: flex;
+}
+.places-section-3 {
+    display: flex;
+}
+
+.destination-container h1 {
+    color: #131318;
     text-align: center;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 800;
-    padding: 50px;
+    padding-bottom: 24px;
+}
+
+.destination-container p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 60px;
 }
 
 /* section styles */
@@ -224,6 +239,7 @@ nav a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
+    padding-left: 20px;
 }
 
 .promotion {
@@ -329,6 +345,7 @@ nav a {
     color: #FFF;
     font-size: 32px;
     font-weight: 800;
+}
 
 /* footer styles  */
 footer {
